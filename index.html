@@ -1,0 +1,56 @@
+<html>
+<head>
+<title>Dalai Test</title>
+</head>
+<style>
+    button{
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 25px;
+        margin: 4px 2px;
+    }
+    input{
+        font-size:24px;
+    }
+    .question{
+        text-align: center;
+        left: 10%;
+        width: 80%;
+        border: 3px solid #4CAF50;
+        margin-bottom: 10px;
+    }
+    .row{
+        text-align: center;
+        border: 3px solid #7a4caf;
+        margin: 10%;
+        width: 70%-40px;
+        padding: 20px
+    }
+    #input{
+        position: fixed;
+        bottom: 10%;
+        left: 10%;
+        width: 80%;
+        border: 3px solid #4CAF50;
+    }
+    #inputBox{
+        width: 80%;
+        margin: 5px;
+    }
+    
+</style>
+<body>
+    <p id = "paragraph"></p>
+    <div id="input">
+        <input type="text" id = "inputBox">
+        <button onclick="submission()"id = "inputButton">Submit</button>
+    </div>
+
+    <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+    <script src = "index.js"></script>
+</body>
+</html>
